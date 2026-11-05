@@ -1,0 +1,20 @@
+{
+  "name": "gpt-niang-local",
+  "interface": {
+    "displayName": "GPT-niang-Chat"
+  },
+  "plugins": [
+    {
+      "name": "gpt-niang-usage",
+      "source": {
+        "source": "local",
+        "path": "./gpt-niang-usage"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
